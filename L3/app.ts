@@ -112,4 +112,9 @@ const User:user = {
      
 }
 
+function greet(user: user) {
+    console.log("hello " + user.name + " you are " + user.age + " years old")
+    console.log(user.hobbies)
+}
+
 

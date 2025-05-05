@@ -21,3 +21,7 @@ var User = {
     age: 20,
     hobbies: ["sports", "cooking"],
 };
+function greet(user) {
+    console.log("hello " + user.name + " you are " + user.age + " years old");
+    console.log(user.hobbies);
+}
